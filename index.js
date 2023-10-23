@@ -1,10 +1,7 @@
-// TODO: Include packages needed for this application
 const generateMarkdown = require('./utils/generateMarkdown')
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
-// TODO: Create an array of questions for user input
 
 // Ask user questions for Readme content
 const questionArr = [
@@ -68,12 +65,10 @@ const promptUser = async () => {
         const userResponseObj = await inquirer.prompt(questionArr);
 
         const readmeContent = generateMarkdown(userResponseObj);
-        // const readmeContent = ReadmeTemplate(userResponseObj);
 
-        // TODO: Create a function to write README file
         await fs.promises.writeFile('README.md', readmeContent);
 
-        console.log('Readme created!');
+        console.log('README created!');
 
     } catch (err) {
         console.log(err);
@@ -81,12 +76,10 @@ const promptUser = async () => {
 };
 
 
-// TODO: Create a function to write README file
 
-
-// TODO: Create a function to initialize app
+// Initial message call once application is ran
 function init() {
-    console.log('Welcome to the README generator')
+    console.log('Welcome to the README generator, please answer the following questions to create a professional README file')
     promptUser()
 
 }
