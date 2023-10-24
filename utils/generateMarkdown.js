@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
-   ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
 
   ## Description
   
