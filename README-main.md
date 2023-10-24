@@ -1,14 +1,14 @@
 
   # Readme Generator
-   [![License Badge](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+   [![License Badge](https://img.shields.io/badge/License-NONE-blue)](LICENSE)
 
   ## Description
   
-  The readme generator is an application that creates a README.md file from the terminal. Once the application has been prompted to run a series of questions will be asked to complete a well organized and professional README.md file. Once all questions have been answered the application will add the file to the repository.
+  The readme generator is an application that creates a README.md file from the terminal. Once the application has been prompted, you will be asked a series of questions. The information from the questions is the content for the readme file. Once all questions have been answered the application will add the file to the directory in a README.md.
 
   ## License
   
-  MIT
+  None
   
   ## Table of Contents
 
