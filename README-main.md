@@ -29,7 +29,7 @@
 
   To install necessary dependencies, run the following command:
   
-  npm i
+  npm i inquirer@8.2.4
   
   ## Usage
 

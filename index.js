@@ -40,7 +40,7 @@ const questionArr = [
     {
         type: 'input',
         name: 'install',
-        default: 'npm i',
+        default: 'npm i inquirer@8.2.4',
         message: 'What command should be run to install dependencies?',
     },
     {
