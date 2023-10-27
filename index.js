@@ -40,7 +40,7 @@ const questionArr = [
     {
         type: 'input',
         name: 'install',
-        default: 'npm i inquirer@8.2.4',
+        default: 'npm i',
         message: 'What command should be run to install dependencies?',
     },
     {
@@ -66,7 +66,7 @@ const promptUser = async () => {
 
         const readmeContent = generateMarkdown(userResponseObj);
 
-        await fs.promises.writeFile('README.md', readmeContent);
+        await fs.promises.writeFile('TestREADME.md', readmeContent);
 
         console.log('README created!');
 
